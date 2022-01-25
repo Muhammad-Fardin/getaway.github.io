@@ -1,0 +1,184 @@
+*{margin: 0px; box-sizing: border-box;}
+
+body{overflow-x:hidden;background: linear-gradient(90deg,black,rgb(43, 43, 65));}
+
+video{width:100vw; z-index: 1000;}
+
+.parent
+{
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     top: 0;
+     width: 100vw;
+}
+
+.logo img{margin-top: -1rem; width: 14.5rem;}
+
+a
+{
+     display: inline-block;
+     padding: 3rem; margin-top: 1rem;
+     font-size: 1.2rem; text-decoration: none;
+     color: cyan; text-shadow: 0.5rem 0.5rem 1rem black;
+     transition: 0.5s;
+}
+
+.icon{display: none;}
+
+.nav a:last-child{margin-right: 10rem;}
+
+.nav a:hover{color: white; text-shadow: 1rem 1rem 1rem black; transform: scale(1.5);}
+
+.content
+{
+     width: 80vw; height: 70vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: -50rem;
+     margin: 0 auto; border-radius: 5rem;
+}
+
+h1,p{color: white;text-align: center;padding: 2.5rem;}
+
+#p1,#p2{font-size: 1.3rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 1.5rem;}
+
+.content #p3{font-size: 1.5rem;}
+
+@media (max-width: 1219px) and (min-width: 1025px){
+a{padding: 1rem;}
+
+.content
+{
+     width: 80vw; height: 70vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: -40rem;
+     margin: 0 auto; border-radius: 5rem;
+}
+h1,p{color: white; text-align: center; padding: 2.5rem;}
+
+#p1,#p2{font-size: 1.3rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 1.5rem;}
+
+.content #p3{font-size: 1.5rem;}
+}
+
+@media (max-width: 1024px)and (min-width: 426px){
+.content
+{
+     width: 60vw; height: 40vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: -25rem;
+     margin: 0 auto; border-radius: 5rem;
+}
+h1{font-size: 1.2rem;}
+
+h1,p{color: white; text-align: center; padding: 1.5rem;}
+
+#p1,#p2{font-size: 0.8rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 0.8rem;}
+
+.content #p3{font-size: 0.8rem;}
+
+.logo img{width: 8rem;}
+
+.nav{position: fixed; top: 5rem; left: 0rem; width: 100vw; display: none;}
+
+.nav a{display: block; padding: 0.5rem; transition: 1s;}
+
+.nav a:hover{color: white;text-shadow: 1rem 1rem 1rem black;}
+
+.icon{display: inline-block; margin-top: -2rem;}
+}
+
+@media (max-width: 426px){
+.content
+{
+     width: 65vw; height: 65vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: 0rem;
+     margin: 0 auto; border-radius: 5rem;
+     line-height: 1rem;
+}
+h1{font-size: 1.2rem;}
+
+h1,p{color: white; text-align: center; padding: 1.4rem;}
+
+#p1,#p2{font-size: 0.6rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 0.6rem;}
+
+.content #p3{font-size: 0.6rem;}
+
+.logo img
+{width: 4rem; margin-top: 0.01rem;}
+
+.nav{position: fixed; top: 2.5rem; left: 0.5rem; width: 100vw; display: none;}
+
+.nav a{display: block; padding: 0; font-size: 0.5rem;}
+
+.nav a:hover{color: white;text-shadow: 1rem 1rem 1rem black;}
+
+.icon{display: inline-block; margin-top: -3rem;}
+}
+@media (max-width: 600px) and (min-width: 426px) 
+{
+.content
+{
+     width: 60vw; height: 60vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: 0rem; 
+     margin: 0 auto; border-radius: 5rem;
+}
+h1{font-size: 0.9rem;}
+
+h1,p{color: white; text-align: center; padding: 1rem;}
+
+#p1,#p2{font-size: 0.8rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 0.8rem;}
+
+.content #p3{font-size: 0.8rem;}
+}
+
+@media (max-width:2560px) and (min-width: 1680px){
+.content
+{
+     width: 60vw; height: 30vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: -60rem;
+     margin: 0 auto; border-radius: 5rem;
+}
+h1{font-size: 2.5rem;}
+
+h1,p{color: white; text-align: center; padding: 2rem;}
+
+#p1,#p2{font-size: 1.8rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 1.8rem;}
+
+.content #p3{font-size: 1.8rem;}
+}
+
+@media (max-width: 1680px) and (min-width: 1220px) 
+{
+.content
+{
+     width: 60vw; height: 60vh;
+     background-color: black; opacity: 0.5;
+     position: relative; top: -40rem;
+     margin: 0 auto; border-radius: 5rem;
+}
+h1{font-size: 1.8rem;}
+     
+h1,p{color: white; text-align: center; padding: 2rem;}
+
+#p1,#p2{font-size: 1.5rem;color:chartreuse}
+
+.content a{padding: 0;font-size: 1.5rem;}
+
+.content #p3{font-size: 1.5rem;}
+}
